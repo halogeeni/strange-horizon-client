@@ -13,6 +13,9 @@ module.exports = {
       favicon: "./src/assets/favicon.ico",
       templateContent: `
         <html>
+          <head>
+            <meta charset="UTF-8">
+          </head>
           <body>
             <div id="root"></div>
           </body>
