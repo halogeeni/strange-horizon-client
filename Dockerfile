@@ -3,7 +3,6 @@ USER node
 RUN mkdir -p /home/node/app
 COPY --chown=node:node . /home/node/app
 WORKDIR /home/node/app
-
 RUN npm ci && \
     npm run build
 
